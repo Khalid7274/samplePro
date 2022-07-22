@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-21T15:49:06 EDT" name="Suite" finished-at="2022-07-21T15:49:06 EDT" duration-ms="146">
+    <groups>
+    </groups>
+    <test started-at="2022-07-21T15:49:06 EDT" name="Test" finished-at="2022-07-21T15:49:06 EDT" duration-ms="146">
+      <class name="testCases.LoginPageTest">
+        <test-method signature="loginWithInvalidPassword()[pri:0, instance:testCases.LoginPageTest@6356695f]" started-at="2022-07-21T15:49:06 EDT" name="loginWithInvalidPassword" finished-at="2022-07-21T15:49:06 EDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidPassword -->
+        <test-method signature="loginWithInvalidUserName()[pri:0, instance:testCases.LoginPageTest@6356695f]" started-at="2022-07-21T15:49:06 EDT" name="loginWithInvalidUserName" finished-at="2022-07-21T15:49:06 EDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidUserName -->
+        <test-method signature="loginWithValidCreadintial()[pri:0, instance:testCases.LoginPageTest@6356695f]" started-at="2022-07-21T15:49:06 EDT" name="loginWithValidCreadintial" finished-at="2022-07-21T15:49:06 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCreadintial -->
+      </class> <!-- testCases.LoginPageTest -->
+      <class name="testCases.MobilePageTest">
+        <test-method signature="verificationOfDisplay()[pri:0, instance:testCases.MobilePageTest@47af7f3d]" started-at="2022-07-21T15:49:06 EDT" name="verificationOfDisplay" finished-at="2022-07-21T15:49:06 EDT" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificationOfDisplay -->
+        <test-method signature="verificationOfMemory()[pri:0, instance:testCases.MobilePageTest@47af7f3d]" started-at="2022-07-21T15:49:06 EDT" name="verificationOfMemory" finished-at="2022-07-21T15:49:06 EDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificationOfMemory -->
+        <test-method signature="verificationOfVersion()[pri:0, instance:testCases.MobilePageTest@47af7f3d]" started-at="2022-07-21T15:49:06 EDT" name="verificationOfVersion" finished-at="2022-07-21T15:49:06 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificationOfVersion -->
+      </class> <!-- testCases.MobilePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
