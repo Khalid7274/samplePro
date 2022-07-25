@@ -1,5 +1,6 @@
 package testCases;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class MobilePageTest {
@@ -17,5 +18,10 @@ public class MobilePageTest {
 	@Test
 	public void verificationOfVersion() {
 		System.out.println("IOS 13 system handle the code");
+	}
+	
+	@Test
+	public void withInvalidUserName() {
+		Assert.assertTrue(false);
 	}
 }
