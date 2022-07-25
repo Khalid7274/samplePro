@@ -29,10 +29,10 @@ public class Listeners extends BaseClass implements ITestListener{
 	public void onTestFailure(ITestResult result) {
 		
 		System.out.println("This test failed "+result.getName());
-		TakesScreenshot screenshot=((TakesScreenshot)driver);
-		File src=screenshot.getScreenshotAs(OutputType.FILE);
+		
+		File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		try {
-			FileUtils.copyFile(src, new File("C:\\Users\\naimt\\OneDrive\\Desktop\\Lalmart\\Lalmart\\screenshot"+result.getName()+".png"));
+			FileUtils.copyFile(src, new File("C:\\Users\\naimt\\OneDrive\\Desktop\\Lalmart\\Lalmart\\screenshot\\screen.png"));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

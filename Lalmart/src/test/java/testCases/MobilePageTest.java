@@ -1,9 +1,12 @@
 package testCases;
 
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class MobilePageTest {
+import utilities.BaseClass;
+
+public class MobilePageTest extends BaseClass{
 	
 	@Test
 	public void verificationOfDisplay() {
@@ -22,6 +25,10 @@ public class MobilePageTest {
 	
 	@Test
 	public void withInvalidUserName() {
-		Assert.assertTrue(false);
+	driver.findElement(By.id("txtUsername")).sendKeys("khan");
+	driver.findElement(By.id("txtPassword")).sendKeys("khan");
+	driver.findElement(By.id("btnLogin")).click();
+	
+	Assert.assertEquals(driver.getTitle(), "jan");
 	}
 }
