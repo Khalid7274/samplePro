@@ -2,38 +2,38 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-21T16:44:29 EDT" name="Surefire suite" finished-at="2022-07-21T16:44:29 EDT" duration-ms="33">
+  <suite started-at="2022-07-24T16:46:17 EDT" name="Suite" finished-at="2022-07-24T16:46:17 EDT" duration-ms="40">
     <groups>
     </groups>
-    <test started-at="2022-07-21T16:44:29 EDT" name="Surefire test" finished-at="2022-07-21T16:44:29 EDT" duration-ms="33">
+    <test started-at="2022-07-24T16:46:17 EDT" name="Test" finished-at="2022-07-24T16:46:17 EDT" duration-ms="40">
       <class name="testCases.LoginPageTest">
-        <test-method signature="loginWithInvalidPassword()[pri:0, instance:testCases.LoginPageTest@4034c28c]" started-at="2022-07-21T16:44:29 EDT" name="loginWithInvalidPassword" finished-at="2022-07-21T16:44:29 EDT" duration-ms="2" status="PASS">
+        <test-method signature="loginWithInvalidPassword()[pri:0, instance:testCases.LoginPageTest@5223e5ee]" started-at="2022-07-24T16:46:17 EDT" name="loginWithInvalidPassword" finished-at="2022-07-24T16:46:17 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithInvalidPassword -->
-        <test-method signature="loginWithInvalidUserName()[pri:0, instance:testCases.LoginPageTest@4034c28c]" started-at="2022-07-21T16:44:29 EDT" name="loginWithInvalidUserName" finished-at="2022-07-21T16:44:29 EDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginWithInvalidUserName -->
-        <test-method signature="loginWithValidCreadintial()[pri:0, instance:testCases.LoginPageTest@4034c28c]" started-at="2022-07-21T16:44:29 EDT" name="loginWithValidCreadintial" finished-at="2022-07-21T16:44:29 EDT" duration-ms="0" status="PASS">
+        <test-method signature="loginWithValidCreadintial()[pri:0, instance:testCases.LoginPageTest@5223e5ee]" started-at="2022-07-24T16:46:17 EDT" name="loginWithValidCreadintial" finished-at="2022-07-24T16:46:17 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithValidCreadintial -->
+        <test-method signature="loginWithInvalidUserName()[pri:0, instance:testCases.LoginPageTest@5223e5ee]" started-at="2022-07-24T16:46:17 EDT" name="loginWithInvalidUserName" finished-at="2022-07-24T16:46:17 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidUserName -->
       </class> <!-- testCases.LoginPageTest -->
       <class name="testCases.MobilePageTest">
-        <test-method signature="verificationOfDisplay()[pri:0, instance:testCases.MobilePageTest@6b419da]" started-at="2022-07-21T16:44:29 EDT" name="verificationOfDisplay" finished-at="2022-07-21T16:44:29 EDT" duration-ms="1" status="PASS">
+        <test-method signature="verificationOfDisplay()[pri:0, instance:testCases.MobilePageTest@2f7c2f4f]" started-at="2022-07-24T16:46:17 EDT" name="verificationOfDisplay" finished-at="2022-07-24T16:46:17 EDT" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificationOfDisplay -->
-        <test-method signature="verificationOfMemory()[pri:0, instance:testCases.MobilePageTest@6b419da]" started-at="2022-07-21T16:44:29 EDT" name="verificationOfMemory" finished-at="2022-07-21T16:44:29 EDT" duration-ms="0" status="PASS">
+        <test-method signature="verificationOfMemory()[pri:0, instance:testCases.MobilePageTest@2f7c2f4f]" started-at="2022-07-24T16:46:17 EDT" name="verificationOfMemory" finished-at="2022-07-24T16:46:17 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificationOfMemory -->
-        <test-method signature="verificationOfVersion()[pri:0, instance:testCases.MobilePageTest@6b419da]" started-at="2022-07-21T16:44:29 EDT" name="verificationOfVersion" finished-at="2022-07-21T16:44:29 EDT" duration-ms="0" status="PASS">
+        <test-method signature="verificationOfVersion()[pri:0, instance:testCases.MobilePageTest@2f7c2f4f]" started-at="2022-07-24T16:46:17 EDT" name="verificationOfVersion" finished-at="2022-07-24T16:46:17 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificationOfVersion -->
       </class> <!-- testCases.MobilePageTest -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
