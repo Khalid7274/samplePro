@@ -32,10 +32,7 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.0.0-M4</version>
 				<configuration>
-					<suiteXmlFiles>${xmlFiles}</suiteXmlFiles>
-					<systemPropertyVariables>
-					<appURL>${url}</appURL>
-					</systemPropertyVariables>
+					<suiteXmlFiles>testng.xml</suiteXmlFiles>
 				</configuration>
 			</plugin>
 		</plugins>
